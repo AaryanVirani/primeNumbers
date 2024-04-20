@@ -16,7 +16,10 @@ This MPI-based program generates prime numbers between 2 and a specified number 
 
 - An MPI library (e.g., MPI) installed on your system.
 - Access to a C compiler capable of compiling MPI programs (e.g., `mpicc`).
-- Install the module with: ```bash mpicc -o primes primes.c module load mpi/openmpi-x86_64 ```
+- Install the module with:
+```bash
+mpicc -o primes primes.c module load mpi/openmpi-x86_64
+```
 
 ### Compilation
 
